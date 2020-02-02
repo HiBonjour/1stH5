@@ -24,24 +24,35 @@
     80% { opacity: 1; }
     100% { opacity: 0; }
 }
-span {
-    font-size: 10em;
+body {
+    margin: 0;
+}
+div {
+    font-size: 20em;
     display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+span {
+    background-color: rgba(100,100,100,0.2);
+    padding: 100px;
 }
 .c {
     background-color: lightgreen;
-    animation: c 4s infinite;
+    animation: c 8s infinite;
 }
 .x {
     background-color: rgb(255,50,30);
-    animation: x 4s infinite;
+    animation: x 8s infinite;
 }
 .q {
     background-color: gold;
-    animation: q 4s infinite;
+    animation: q 8s infinite;
 }
 .d {
     background-color: black;
     color: white;
-    animation: d 4s infinite;
+    animation: d 8s infinite;
 }
