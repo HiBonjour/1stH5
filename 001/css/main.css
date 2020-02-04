@@ -36,8 +36,8 @@ div {
     text-align: center;
 }
 span {
-    background-color: rgba(100,100,100,0.2);
     padding: 100px;
+    display: block;
 }
 .c {
     background-color: lightgreen;
